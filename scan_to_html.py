@@ -22,7 +22,7 @@ from datetime import datetime, timezone, timedelta
 # (Wide-swinging names like CSCO/IBM aren't range trades — leave them out.)
 # ----------------------------------------------------------------------------
 WATCHLIST = [
-    "KO", "PG", "JNJ", "PEP", "MRK", "WMT", "MCD", "VZ", "ABT", "CVX", "XOM", "T", "MSFT", "AMZN", "NBIS", "GOOGL", "SPX", "VIX", "DJX", "NDX", "NFLX", 
+    "KO", "PG", "JNJ", "PEP", "MRK", "WMT", "MCD", "VZ", "ABT", "CVX", "XOM", "T", "MSFT", "AMZN", "GOOGL" 
 ]
 
 LOOKBACK_DAYS = 60
